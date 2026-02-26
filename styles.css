@@ -297,7 +297,7 @@ body{
 }
 
 .banner-content-box > h1{
-    font-size: 4.2rem;
+    font-size: 2rem;
     transition: transform 0.3s ease-in-out;
     animation: alo 2s infinite ease-in-out;
     text-align: center;
@@ -1155,5 +1155,6 @@ a{
     }
     
 }
+
 
 
