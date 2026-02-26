@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Exo+2:wght@300;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header-box">
+            <div class="header-box-1">
+                <img src="./tainguyen/logo.png" alt="lo-go">
+                <h3 class="">AURA Education</h3>
+            </div>
+            <!-- audio -->
+            <div class="cyber-player-slim">
+                <button class="cyber-btn" id="play-btn">PLAY</button>
+              
+                <div class="player-body">
+                  <div class="track-meta">
+                    <span class="track-title" id="title">Miu zịk</span>
+                    <div class="time-display">
+                      <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+                    </div>
+                  </div>
+                  <div class="progress-container" id="progress-container">
+                    <div class="progress-bar" id="progress"></div>
+                  </div>
+                </div>
+              
+                <audio id="audio" src="./tainguyen/bgmusic.mp3" loop></audio>
+              </div>
+        </div>
+
+        <div class="banner-box">
+            <img src="./tainguyen/banner-bg.webp" alt="banner-img">
+            <div class="banner-content-box">
+                <p class="cyber-quote" data-text="">
+                    "Never stop learning, because life never stops teaching."
+                </p>
+                <h1 class="aura-title">Welcome to AURA Education !</h1>
+                <button class="btn">EXPLORE</button>
+            </div>
+        </div>
+        <div class="menu-box">
+            <div class="menu-button">
+                <img id="menu-button-img" src="./tainguyen/menu-button.png" alt="menu-button">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li id = "products-id">
+                        <a href="#products-box-id">Products</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">E-book</a></li>
+                            <li><a href="#">Course</a></li>
+                            <li><a href="#">School Supplies</a></li>
+                            <li><a href="#">Giáo án Vayne đi Top</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- features -->
+        <div class="features-box" id="feature">
+            <div class="features-item-1">
+                <h3>Personalized Learning Paths</h3>
+                <br>
+                <p>
+                    Move beyond generic tutorials. Our platform uses smart tracking to curate a step-by-step roadmap tailored to your current skill level and career goals.
+                </p>
+            </div>
+            <div class="features-item-2">
+                <h3>Expert-Led Instruction</h3>
+                <br>
+                <p>
+                    Learn from industry veterans, not just theorists. Our instructors bring years of real-world experience from top-tier companies directly to your screen.
+                </p>
+            </div>
+            <div class="features-item-3">
+                <h3>Interactive Projects & Portfolio Building</h3>
+                <br>
+                <p>
+                    Knowledge is useless without practice. Every course includes hands-on assignments and a final capstone project that you can showcase to future employers.
+                </p>
+            </div>
+            <div class="features-item-4">
+                <h3>Lifetime Access & Community Support</h3>
+                <br>
+                <p>
+                    Enroll once, learn forever. Join a global community of learners and mentors available 24/7 to answer your questions and provide constructive feedback.
+                </p>
+            </div>
+            <div class="butterfly">
+                <div class="left-fly"></div>
+                <div class="right-fly"></div>
+            </div>
+        </div>
+
+        <!-- about-our -->
+        <div class="about-our-box" id="about">
+            <div class="about-content-1">
+                <div class="space-ship-img">
+                    <img src="./tainguyen/ufo-alien-ship-isolated-on-transparent-background-png.png" alt="space-ship">
+                </div>
+                <div class="about-img-box">
+                    <div class="item-1"><img src="./tainguyen/about/about-item-1.png" alt="item-11"></div>
+                    <div class="item-2"><img src="./tainguyen/about/about-item-2.png" alt="item-22"></div>
+                    <div class="item-3"><img src="./tainguyen/about/about-item-3.png" alt="item-33"></div>
+                    <div class="item-4"><img src="./tainguyen/about/about-item-4.png" alt="item-44"></div>
+                    <div class="item-5"><img src="./tainguyen/about/about-item-5.png" alt="item-55"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <h4>About Our</h4>
+                <br>
+                <h2>Our Education System</h2>
+                <br>
+                <p>We don’t just teach code; we decode the future. In a world rapidly evolving through Artificial Intelligence and Cybernetics, staying ahead isn't an option—it’s a necessity.
+                    <br>
+                    Born from the neon-lit intersection of technology and creativity, our mission is to empower the next generation of digital architects, AI specialists, and software engineers with "Knowledge that transcends boundaries."</p>
+                <br>
+                <button class="btn">LEARN MORE</button>
+            </div>
+        </div>
+
+        <!-- products -->
+
+        <div id="products-box-id" class="products-box">
+            <div class="products-content-1">
+                <h3>check out</h3>
+                <h2>OUR PRODUCT</h4>
+                <br>
+                <br>
+                <p>
+                    "Explore our comprehensive suite of educational tools designed to bridge the gap between theory and practice... "
+                </p>
+                <br>
+                <br>
+                <button class="btn">INVENTORY</button>
+            </div>
+            <div class="products-content">
+                <div class="products-img">
+                    <img src="./tainguyen//products/vayne.png" alt="image">
+                </div>
+                <br>
+                <h2>Vayne Top Lane Lesson Plan</h2>
+                <br>
+                <h4>$ 3.99</h4>
+            </div>
+            <div class="products-content">
+                <div class="products-img">
+                    <img src="./tainguyen//products/html.png" alt="image">
+                </div>
+                <br>
+                <h2>Basic HTML and CSS tutorial</h2>
+                <br>
+                <h4>$ 5.99</h4>
+                </div>
+        </div>
+
+        <!-- chatbox -->
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="header-controls">
+                    <span id="chat-exit">EXIT</span>
+                </div>
+                
+                <span class="header-text">CHAT</span>
+                <div class="green-dot"></div>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message received">
+                    <span class="username">SYSTEM:</span> Initiating secure connection...
+                </div>
+                <div class="message received">
+                    <span class="username">AGENT_X:</span> Access granted. Awaiting input.
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type your command..." spellcheck="false">
+                <button id="send-button">SEND</button>
+            </div>
+        </div>
+
+        <!-- chat-button -->
+
+        <div class="chat-button">
+            <img src="./tainguyen/mess-logo-dot.svg" alt="chat-button">
+        </div>
+
+
+        <!-- trang service -->
+        
+        <div class="service">
+
+            <h4>explore</h4>
+            <h2>OUT SERVICES</h2>
+
+            <br>
+
+            <div class="service-hood">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="./tainguyen/about/about-item-1.png" alt="">
+                    </div>
+                    <br>
+                    <h4>
+                        Carrer-Ready Learning Paths
+                    </h4>
+                </div>
+    
+                <div class="service-item" id="special-service">
+                    <div class="service-img">
+                        <img src="./tainguyen/about/about-item-4.png" alt="">
+                    </div>
+                    <br>
+                    <h4>
+                        1-on-1 Dedicated Mentorship
+                    </h4>
+                    <button class="btn">Read more</button>
+                </div>
+    
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="./tainguyen/about/about-item-5.png" alt="">
+                    </div>
+                    <br>
+                    <h4>
+                        Real World Project & Code Reviews
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- trang-contact -->
+
+        <div class="contact-container" id="contact">
+            <div class="contact-box-1">
+                <div>
+                    <h4>Adress</h4>
+                    <br>
+                    <p>Trứng rán cần mỡ, Bắp cần bơ, Đảo Khỉ, Cần Giờ</p>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <br>
+                    <p>xuanlonghh4@gmail.com</p>
+                </div>
+                <div>
+                    <h4>
+                        Telephone
+                    </h4>
+                    <br>
+                    <p>0123456789</p>
+                </div>
+
+                <div class="mxh">
+                    <div class="fb-icon" id="contact-facebook">
+                        <img src="./tainguyen/fb-icon.png" alt="fb">
+                    </div>
+                    <div class="tiktok-icon">
+                        <img src="./tainguyen/tiktok-icon.png" alt="tt">
+                    </div>
+                    <div class="twt-icon">
+                        <img src="./tainguyen/twter-icon.png" alt="tw">
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.1521585570254!2d106.88606371133315!3d10.409487365810378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175426a66c18b13%3A0x4ac7d72562222c51!2zS2h1IGPEg24gY-G7qSBWw6BtIFPDoXQgxJDhuqNvIEto4buJ!5e0!3m2!1svi!2s!4v1771779045898!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="contact-box-2">
+                <div class="contact-form">
+                    <form method="post">
+                        <label for="name"><h6>Name</h6></label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <br>
+                        <label for="email"><h6>Email</h6></label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <br>
+                        <input type="submit" id="submit" class="btn"></form>        
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
